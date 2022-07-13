@@ -1,0 +1,24 @@
+.photoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.title {
+    font-size: smaller;
+    width: 100px;
+    height: 100px;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}

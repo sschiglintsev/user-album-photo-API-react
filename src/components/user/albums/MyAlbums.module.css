@@ -1,0 +1,12 @@
+.photosContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.title {
+    font-size: smaller;
+    width: 150px;
+    height: 70px;
+}

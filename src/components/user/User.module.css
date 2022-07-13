@@ -1,0 +1,13 @@
+.myAlbumContainer {
+    width: 600px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.userContainer {
+
+    text-align: left;
+}
