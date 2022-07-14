@@ -33,7 +33,7 @@ export const Photo = (props) => {
                         {props.title}
                     </div>
                     <div className={style.button}>
-                        <Button onClick={()=>onClickHandler(props.albumId)} variant="outlined">User: {props.albumId}</Button>
+                        <Button onClick={()=>onClickHandler(props.albumId)} variant="outlined">Album: {props.albumId}</Button>
                     </div>
                 </Paper>
             </Box>
